@@ -22,7 +22,6 @@ function liveTime() {
 
     ele.innerText = hours + ' : ' + minutes + ' : ' + seconds + ' ' + formate;
     document.body.appendChild(ele);
-    console.log(hours + ' / ' + minutes + ' / ' + seconds);
 }
 
 liveTime();
